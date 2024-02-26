@@ -33,7 +33,7 @@ export default function Banner() {
             </Link>
           </div>
           <div className="relative h-full w-full pt-20">
-            <div className=" absolute top-44 right-0 flex justify-end">
+            <div className=" absolute top-[170px] right-0 flex justify-end">
               <Image
                 src={groupImage}
                 width={520}
@@ -42,28 +42,28 @@ export default function Banner() {
               />
             </div>
             <Image
-              className=" absolute top-[255px] left-60"
+              className=" absolute top-[250px] left-60"
               width={65}
               height={65}
               src={Man1}
               alt="side Image"
             />
             <Image
-              className=" absolute top-[300px] right-[-100px]"
+              className=" absolute top-[320px] right-[-85px]"
               src={Man2}
               width={65}
               height={65}
               alt="side-image-2"
             />
-            <div className=" flex gap-5 bg-white p-6">
-              <div className=" flex -space-x-4">
+            <div className=" absolute top-[450px] right-[-75px] flex gap-5 bg-white py-[10px] px-4 items-center rounded-xl">
+              <div className=" flex h-14 -space-x-5 items-center">
                 <Image src={Client1} width={55} height={55} alt="clients-1" />
                 <Image src={Client2} width={55} height={55} alt="clients-2" />
                 <Image src={Client3} width={55} height={55} alt="clients-3" />
               </div>
               <div>
                 <p className=" text-[36px] font-bold text-primary">20K+</p>
-                <p>Happy Clients</p>
+                <p className="">Happy Clients</p>
               </div>
             </div>
           </div>
