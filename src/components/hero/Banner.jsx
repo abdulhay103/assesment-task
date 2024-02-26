@@ -1,23 +1,23 @@
 import React from "react";
-import BannerBG from "../../../public/hero/home-bg.png";
-import groupImage from "../../../public/hero/group-image.png";
-import Man1 from "../../../public/hero/man-img-1.png";
-import Man2 from "../../../public/hero/man-img-2.png";
-import Client1 from "../../../public/hero/client-img-1.png";
-import Client2 from "../../../public/hero/client-img-2.png";
-import Client3 from "../../../public/hero/client-img-3.png";
-import SideImage1 from "../../../public/hero/side-image-1.png";
-import arrowIcon from "../../../public/hero/arrow-icon.png";
+import BannerBG from "/public/hero/home-bg.png";
+import groupImage from "/public/hero/group-image.png";
+import Man1 from "/public/hero/man-img-1.png";
+import Man2 from "/public/hero/man-img-2.png";
+import Client1 from "/public/hero/client-img-1.png";
+import Client2 from "/public/hero/client-img-2.png";
+import Client3 from "/public/hero/client-img-3.png";
+import SideImage1 from "/public/hero/side-image-1.png";
+import arrowIcon from "/public/hero/arrow-icon.png";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Banner() {
   return (
-    <div className=" relative">
+    <div className=" relative h-[890px]">
       <div className=" absolute">
         <Image src={BannerBG} width={1920} height={890} alt="bg-iamge" />
       </div>
-      <div className=" absolute w-full h-[890px] border-2">
+      <div className=" absolute w-full h-[890px]">
         <div className=" container mx-auto h-full flex items-center justify-between ">
           <div className="left w-full pt-14">
             <h1 className=" text-[82px] font-bold leading-[88.5px]">
