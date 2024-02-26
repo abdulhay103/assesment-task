@@ -9,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${lexenDeca.variable}`}>
+      <body
+        className={`w-full overflow-y-auto ${dmSans.variable} ${lexenDeca.variable}`}
+        suppressHydrationWarning={true}
+      >
         {children}
       </body>
     </html>
