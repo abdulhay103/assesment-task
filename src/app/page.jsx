@@ -1,6 +1,7 @@
 import About from "@/components/agency/About";
 import About2 from "@/components/agency/About2";
 import Agency from "@/components/agency/Agency";
+import ContactUi from "@/components/contact/ContactUi";
 import Banner from "@/components/hero/Banner";
 import { NavbarUi } from "@/components/master/header/NavbarUi";
 import Brands from "@/components/others/Brands";
@@ -19,6 +20,7 @@ export default function Home() {
       <Agency />
       <Reviews />
       <About2 />
+      <ContactUi />
     </React.Fragment>
   );
 }

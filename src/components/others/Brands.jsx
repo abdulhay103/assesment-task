@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Brands() {
   return (
-    <section className=" bg-[#F5F5F7] py-10">
+    <section className="bg-[#F5F5F7] py-16 overflow-hidden">
       <div className=" -ml-48 flex gap-5 mb-6">
         <h2 className=" text-[#514A74]">BrandCraft</h2>
         <Image
@@ -48,7 +48,7 @@ export default function Brands() {
           alt="Bands Icon"
         />
       </div>
-      <div className=" flex gap-5 justify-end -mr-10 ">
+      <div className=" flex gap-5 justify-end -mr-10">
         <h2 className=" text-[#514A74]">BrandCraft</h2>
         <Image
           src={Saas}
