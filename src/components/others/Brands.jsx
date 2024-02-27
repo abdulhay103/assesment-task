@@ -1,10 +1,10 @@
 import React from "react";
-import BrandCraft from "../../../public/colaborators/brandCraft.png";
-import Saas from "../../../public/colaborators/saas.png";
-import PixelPerfect from "../../../public/colaborators/pixel-perfect.png";
-import ContentWizerd from "../../../public/colaborators/content-wizerd.png";
-import BrandRevive from "../../../public/colaborators/brand-revive.png";
-import SaasBlue from "../../../public/colaborators/saas-blue.png";
+import BrandCraft from "/public/colaborators/brandCraft.png";
+import Saas from "/public/colaborators/saas.png";
+import PixelPerfect from "/public/colaborators/pixel-perfect.png";
+import ContentWizerd from "/public/colaborators/content-wizerd.png";
+import BrandRevive from "/public/colaborators/brand-revive.png";
+import SaasBlue from "/public/colaborators/saas-blue.png";
 import Image from "next/image";
 
 export default function Brands() {
