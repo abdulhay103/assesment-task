@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Cloud from "../../../public/services/CLOUD.png";
-import Pixel from "../../../public/services/pixel.png";
-import Note from "../../../public/services/note.png";
-import Forge from "../../../public/services/forge.png";
-import Hub from "../../../public/services/hub.png";
+import Cloud from "/public/services/CLOUD.png";
+import Pixel from "/public/services/pixel.png";
+import Note from "/public/services/note.png";
+import Forge from "/public/services/forge.png";
+import Hub from "/public/services/hub.png";
 
 export default function ServiceUI() {
   return (
@@ -22,7 +22,7 @@ export default function ServiceUI() {
           services
         </h2>
         <div className=" grid grid-cols-2 gap-10 pt-16 pb-10">
-          <div className=" flex gap-8 p-10 items-center bg-[#e7f7fd] rounded-[20px]">
+          <div className=" flex gap-8 p-10 items-center bg-[#e7f7fd] rounded-20">
             <div className=" flex items-center justify-center w-20 h-20 bg-[#95D5EE] rounded-full">
               <Image
                 src={Pixel}
@@ -40,7 +40,7 @@ export default function ServiceUI() {
               </p>
             </div>
           </div>
-          <div className=" flex gap-8 p-10 items-center bg-[#FAF7F0] rounded-[20px]">
+          <div className=" flex gap-8 p-10 items-center bg-[#FAF7F0] rounded-20">
             <div className=" flex items-center justify-center w-20 h-20 bg-[#F9A78F] rounded-full">
               <Image
                 src={Note}
@@ -58,7 +58,7 @@ export default function ServiceUI() {
               </p>
             </div>
           </div>
-          <div className=" flex gap-8 p-10 items-center bg-[#FAF7F0] rounded-[20px]">
+          <div className=" flex gap-8 p-10 items-center bg-[#FAF7F0] rounded-20">
             <div className=" flex items-center justify-center w-20 h-20 bg-[#F9A78F] rounded-full">
               <Image
                 src={Forge}
@@ -76,7 +76,7 @@ export default function ServiceUI() {
               </p>
             </div>
           </div>
-          <div className=" flex gap-8 p-10 items-center bg-[#e7f7fd] rounded-[20px]">
+          <div className=" flex gap-8 p-10 items-center bg-[#e7f7fd] rounded-20">
             <div className=" flex items-center justify-center w-20 h-20 bg-[#95D5EE] rounded-full">
               <Image
                 src={Hub}

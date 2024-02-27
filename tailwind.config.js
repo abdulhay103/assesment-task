@@ -13,6 +13,9 @@ module.exports = {
       xl: "1290px",
     },
     extend: {
+      borderRadius: {
+        20: "20px",
+      },
       colors: {
         primary: "#140b43",
         secondary: "#514a74",

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import AboutImage from "../../../public/about/about-image.png";
-import GroupImage from "../../../public/about/group-people.png";
-import Code from "../../../public/about/code.png";
+import AboutImage from "/public/about/about-image.png";
+import GroupImage from "/public/about/group-people.png";
+import Code from "/public/about/code.png";
 
 export default function About() {
   return (
@@ -39,7 +39,7 @@ export default function About() {
               volutpat, sodales purus. Nunc quis maurodales purus. Nunc quis
               mauris et eros vulputate mattis Nulla vitae ex nunc.
             </p>
-            <div className=" ml-10 relative w-[350px] h-[105px] bg-white border rounded-[20px]">
+            <div className=" ml-10 relative w-[350px] h-[105px] bg-white border rounded-20">
               <div className=" absolute top-5 -left-8 flex w-96">
                 <div className=" w-16 h-16 rounded-full bg-secondary-blue flex justify-center items-center">
                   <Image src={Code} width={30} height={30} alt="Icons" />
