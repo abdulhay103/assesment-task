@@ -1,9 +1,9 @@
 import React from "react";
-import DashboardImage1 from "../../../public/agency/dashboard-image-1.jpg";
-import DashboardImage2 from "../../../public/agency/dashboard-image-2.jpg";
-import DashboardImage3 from "../../../public/agency/dashboard-image-3.jpg";
-import DashboardImage4 from "../../../public/agency/dashboard-image-4.jpg";
-import DashboardImage5 from "../../../public/agency/dashboard-image-5.jpg";
+import DashboardImage1 from "/public/agency/dashboard-image-1.jpg";
+import DashboardImage2 from "/public/agency/dashboard-image-2.jpg";
+import DashboardImage3 from "/public/agency/dashboard-image-3.jpg";
+import DashboardImage4 from "/public/agency/dashboard-image-4.jpg";
+import DashboardImage5 from "/public/agency/dashboard-image-5.jpg";
 import Image from "next/image";
 
 export default function Agency() {
@@ -14,7 +14,7 @@ export default function Agency() {
           Where Imagination Meets the agency Innovation
         </h2>
         <div className="grid grid-cols-3 gap-7 pt-16">
-          <div className=" col-span-1 bg-[#efeafc] p-10 rounded-[20px]">
+          <div className=" col-span-1 bg-[#efeafc] p-10 rounded-20">
             <div className=" w-full flex justify-center">
               <Image
                 src={DashboardImage1}
@@ -29,7 +29,7 @@ export default function Agency() {
               <p>non similique voluptatem</p>
             </div>
           </div>
-          <div className=" col-span-1 bg-[#eaf7fc] p-10 rounded-[20px]">
+          <div className=" col-span-1 bg-[#eaf7fc] p-10 rounded-20">
             <div className=" w-full flex justify-center">
               <Image
                 src={DashboardImage2}
@@ -44,7 +44,7 @@ export default function Agency() {
               <p>consequatur excepturi magnam</p>
             </div>
           </div>
-          <div className=" col-span-1 bg-[#fefae9] p-10 rounded-[20px]">
+          <div className=" col-span-1 bg-[#fefae9] p-10 rounded-20">
             <div className=" w-full flex justify-center">
               <Image
                 src={DashboardImage3}
@@ -59,7 +59,7 @@ export default function Agency() {
               <p>voluptatem numquam qui</p>
             </div>
           </div>
-          <div className=" col-span-1 bg-[#eafcea] p-10 rounded-[20px]">
+          <div className=" col-span-1 bg-[#eafcea] p-10 rounded-20">
             <div className=" w-full flex justify-center">
               <Image
                 src={DashboardImage4}
@@ -74,7 +74,7 @@ export default function Agency() {
               <p>odit quidem corporis</p>
             </div>
           </div>
-          <div className=" col-span-2 bg-[#feede9] p-10 rounded-[20px]">
+          <div className=" col-span-2 bg-[#feede9] p-10 rounded-20">
             <div className=" w-full flex justify-center">
               <Image
                 src={DashboardImage5}
