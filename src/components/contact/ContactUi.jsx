@@ -33,21 +33,21 @@ export default function ContactUi() {
                 name="name"
                 id="name"
                 placeholder="Your Name"
-                className=" px-6 py-3 border rounded-20"
+                className=" px-6 py-3 border focus:outline-secondary placeholder:text-secondary rounded-20"
               />
               <input
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
-                className=" px-6 py-3 border rounded-20"
+                className=" px-6 py-3 border focus:outline-secondary placeholder:text-secondary rounded-20"
               />
               <input
                 type="text"
                 name="date"
                 id="date"
                 placeholder="Date"
-                className=" px-6 py-3 border rounded-20"
+                className=" px-6 py-3 border focus:outline-secondary placeholder:text-secondary rounded-20"
               />
             </div>
             <div className=" w-full flex gap-6 justify-between pb-5">
@@ -56,21 +56,21 @@ export default function ContactUi() {
                 name="address"
                 id="address"
                 placeholder="Your Address"
-                className=" px-6 py-3 border rounded-20"
+                className=" px-6 py-3 border focus:outline-secondary placeholder:text-secondary rounded-20"
               />
               <input
                 type="email"
                 name="phone"
                 id="phone"
                 placeholder="Phone Number"
-                className=" px-6 py-3 border rounded-20"
+                className=" px-6 py-3 border focus:outline-secondary placeholder:text-secondary rounded-20"
               />
               <input
                 type="text"
                 name="date"
                 id="date"
                 placeholder="Date"
-                className=" px-6 py-3 border rounded-20"
+                className=" px-6 py-3 border focus:outline-secondary placeholder:text-secondary rounded-20"
               />
             </div>
             <div className="w-full pb-4 ">
@@ -79,7 +79,7 @@ export default function ContactUi() {
                 id="message"
                 cols="30"
                 placeholder="Write Message.."
-                className=" w-full h-[150px] resize-none px-6 py-3 border rounded-20"
+                className=" w-full h-[150px] focus:outline-secondary placeholder:text-secondary resize-none px-6 py-3 border rounded-20"
               />
             </div>
             <button
