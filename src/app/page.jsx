@@ -1,4 +1,5 @@
 import About from "@/components/agency/About";
+import Agency from "@/components/agency/Agency";
 import Banner from "@/components/hero/Banner";
 import { NavbarUi } from "@/components/master/header/NavbarUi";
 import Brands from "@/components/others/Brands";
@@ -13,6 +14,7 @@ export default function Home() {
       <ServiceUI />
       <Brands />
       <About />
+      <Agency />
     </React.Fragment>
   );
 }
