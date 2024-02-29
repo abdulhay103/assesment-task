@@ -6,6 +6,7 @@ import ContactUi from "@/components/contact/ContactUi";
 import Banner from "@/components/hero/Banner";
 import { NavbarUi } from "@/components/master/header/NavbarUi";
 import Brands from "@/components/others/Brands";
+import CtaUi from "@/components/others/CtaUi";
 import Reviews from "@/components/others/Reviews";
 import ServiceUI from "@/components/services/ServiceUI";
 import React from "react";
@@ -23,6 +24,7 @@ export default function Home() {
       <About2 />
       <ContactUi />
       <BlogUI />
+      <CtaUi />
     </React.Fragment>
   );
 }
